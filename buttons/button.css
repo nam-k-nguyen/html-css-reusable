@@ -1,3 +1,15 @@
+:root {
+  /* COLOR GRADIENT */
+  --shade-1: rgb(249, 210, 50);
+  --shade-2: rgb(245, 165, 49);
+  --shade-3: rgb(241, 125, 48);
+  --shade-4: rgb(238, 91, 48);
+  --shade-5: rgb(237, 70, 47);
+
+  /* BACKGROUND */
+  --bg-1: rgb(246, 236, 255);
+}
+
 * {
   margin: 0;
   padding: 0;
