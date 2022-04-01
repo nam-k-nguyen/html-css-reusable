@@ -2,15 +2,19 @@ const button1 = document.querySelector("#button-one");
 const button2 = document.querySelector("#button-two");
 const clickAudio = document.querySelector("#click-audio");
 
+// BUTTON 1
+
 button1.addEventListener("mousedown", (e) => {
   const clone = clickAudio.cloneNode();
-  button1.classList.add("clicked");
   clone.play();
   fadeAudio(clone, clickAudio.duration);
+  button1.classList.add("clicked");
 });
 button1.addEventListener("mouseup", (e) => {
   button1.classList.remove("clicked");
 });
+
+// HELPER FUNCTIONS
 
 function fadeAudio(audioNode, audioDuration) {
   let dur = audioDuration.toFixed(1) * 1000;
