@@ -14,6 +14,16 @@ button1.addEventListener("mouseup", (e) => {
   button1.classList.remove("clicked");
 });
 
+// BUTTON 2
+
+var btn2Clicked = false;
+button2.addEventListener("click", (e) => {
+  btn2Clicked = true;
+  setTimeout(() => {
+    btn2Clicked = false;
+  }, 4000);
+});
+
 // HELPER FUNCTIONS
 
 function fadeAudio(audioNode, audioDuration) {
