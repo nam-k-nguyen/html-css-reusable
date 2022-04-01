@@ -34,9 +34,6 @@ body {
   place-items: center;
   border: solid 1px black;
 }
-.button-container:hover {
-  border: solid 1px var(--shade-2);
-}
 
 button {
   border: none;
@@ -54,12 +51,15 @@ button {
   background: var(--shade-4);
   color: white;
   border-radius: 10px;
-  transition: all ease-in 0.1s;
+  transition: all ease-in 0.075s;
   box-shadow: 5px 5px 0px 1px var(--shade-6);
   transform: translate(-5px, -5px);
 }
 
-#button-one.clicked:hover {
+#button-one.clicked {
   box-shadow: 0px 0px 0px 0px var(--shade-6);
   transform: translate(0px, 0px);
 }
+
+/* BUTTON 2 */
+
