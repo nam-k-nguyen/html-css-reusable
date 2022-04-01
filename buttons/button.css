@@ -85,6 +85,7 @@ button {
 #button-two:after {
   background: transparent;
   font-family: 'Font Awesome 6 Free';
+  content: "\f058";
   display: block;
   width: min-content;
   height: min-content;
